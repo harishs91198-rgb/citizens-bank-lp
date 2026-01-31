@@ -62,37 +62,12 @@ body {
 }
 
 #Banner {
-  // margin: 0 0 60px;
-
-  // @media (max-width: 767.98px) {
-  //   margin: 0 0 40px;
-
-  // }
-  img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
 
   .banner-image {
     img {
       width: 100%;
       height: auto;
       display: block;
-
-      &.desktop {
-        @media (max-width: 767.98px) {
-          display: none;
-        }
-      }
-
-      &.mobile {
-        display: none;
-
-        @media (max-width: 767.98px) {
-          display: block;
-        }
-      }
     }
   }
 }
@@ -188,7 +163,6 @@ body {
     @media (max-width: 767.98px) {
       padding: 30px 0 35px;
       gap: 40px;
-      // flex-wrap: nowrap;
     }
 
     .each-ad {
